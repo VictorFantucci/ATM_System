@@ -29,7 +29,7 @@ public class BankDatabase
         return null; // if no matching account is found, return null
     }// end method getAccount
 
-    // determine whether the user specified account number and PIN is matches
+    // determine whether the user specified account number and PIN matches
     // those of an account in the database
     public boolean authenticateUser(int userAccountNumber, int userPIN)
     {
