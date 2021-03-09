@@ -16,7 +16,7 @@ public class Screen
     }// end method displayMessageLine
 
     // display a dollar amount
-    public void displayDollarAmount(String amount)
+    public void displayDollarAmount(double amount)
     {
         System.out.printf("$%,.2f", amount);
     }// end method displayDollarAmount   
